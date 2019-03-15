@@ -1,0 +1,25 @@
+"""
+>>> EC = EstructurasControl()
+>>> EC.estructuraIf(80)
+True
+>>> EC.estructuraIf(70)
+False
+>>> EC.estructuraIf(110)
+False
+"""
+class EstructurasControl:
+
+    def estructuraIf(self, nota):
+        if(nota>70):
+            if(nota>100):
+                return False
+            else:
+                return True
+        elif(nota>60 and nota<70)
+            return False
+        else:
+            return False
+
+if __name__==  '__main__':
+    import doctest
+    doctest.testmod()
